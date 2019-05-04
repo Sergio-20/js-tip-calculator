@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="style.css"/>
+
+		<title>JS Tip Calculator</title>
+
+  </head>
+
+	<body>
+
+		<div class="container text-center">
+			<br/><br/>
+			<h2>Total Cost:</h2>
+			$ <input class="btn-lg the-bill" type="number" placeholder="Bill Amount" />
+			<br/><br/>
+			<h2>How was the service?</h2>
+			<br/>
+			<select class="service-value btn-lg">
+				<option value="5">Excellent</option>
+				<option value="4">Good</option>
+				<option value="3">Decent</option>
+				<option value="2">Bad</option>
+				<option value="1">;( Fail</option>
+			</select>
+
+			<br/><br/>
+
+			<button class="btn btn-outline-light btn-lg output" onclick="calculateTip();">Calculate tip</button>
+
+			<br/><br/>
+		</div>
+
+    <script type="text/javascript" src="index.js"></script>
+
+	</body>
+
+</html>

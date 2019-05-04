@@ -1,0 +1,15 @@
+html {
+	display: grid;
+	grid-template-columns: repeat( auto-fit, minmax( 250px, 1fr ) );
+}
+
+body {
+	background: #333;
+}
+
+.container {
+	border: 2px solid #fff;
+	border-radius: 25%;
+	color: #fff;
+	margin-top: 3rem;
+}
